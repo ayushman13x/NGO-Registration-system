@@ -25,4 +25,3 @@ This system ensures that user data is captured independently of the donation out
 ## 🏗️ System Architecture
 The application uses a decoupled architecture where user registration data is stored independently of the donation process. This ensures that even if a payment is abandoned, the NGO retains the supporter's contact information.
 
-[Image of a sequence diagram showing a user interacting with a registration form, the data being hashed and stored in a database, and the login process returning a JWT token for authorized sessions]
