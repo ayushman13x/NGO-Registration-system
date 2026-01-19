@@ -1,0 +1,13 @@
+# Ignore dependencies in both folders
+server/node_modules/
+client/node_modules/
+
+# Ignore environment variables (Very Important!)
+server/.env
+client/.env
+.env
+
+# Ignore build files and system logs
+server/build/
+npm-debug.log*
+.DS_Store
